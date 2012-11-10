@@ -9,11 +9,12 @@
 <body class="<%= controller.controller_name %>">
    <div id="banner">
       <%= image_tag("logo.jpg") %>
-     <I><%= @page_title || "JEWELS PARADISE" %></I>
+      <%= @page_title || "JEWELS PARADISE" %>
+      <br /><%= @page_subtitle || "ThE BeSt JeWeLs On NeT" %>
    </div>
-
+<%= image_tag("logo.jpg") %>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>An Interactive Website</b>
    <div id="columns">
-<%= image_tag("logo.jpg") %>
+<%= image_tag("images.jpeg") %>
 <br />
 <br />
 <br />
@@ -27,7 +28,6 @@
 <br />
 <br />
 <br />
-<%= image_tag("logo.jpg") %>
    </div>
    <div id="side">
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<%= link_to 'Home', store_path %>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<%= link_to 'Questions', questions_path %>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<%= link_to 'News', news_index_path %>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<%= link_to 'Contact', contacts_path %>

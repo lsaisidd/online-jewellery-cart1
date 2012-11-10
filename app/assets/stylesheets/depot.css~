@@ -57,11 +57,11 @@
 }
 
 #product_list .list_line_even {
-  background:   #e0f8f8;
+  background:   #965A3E;
 }
 
 #product_list .list_line_odd {
-  background:   #f8b0f8;
+  background:   #BDB76B;
 }
 
 /* An entry in the store catalog */
@@ -114,43 +114,43 @@
 /* Styles for main page */
 
 #banner {
-     background: #9c9;
+     background: #BDB76B;
      border-top: 4px solid;
-     padding-top: 10px;
-     padding-bottom: 10px;
+     padding-top: 20px;
+     padding-bottom: 20px;
      border-bottom: 4px solid;
      border-left: 4px solid;
      border-right: 4px solid;
-     font: small-caps 40px/40px "Verdana", serif;
+     font: small-caps 50px/50px "Verdana", serif;
      color: #282;
      text-align: center;
 }
 
 #banner img {
-     float: left;
-     
-}
-
-#banner img {
-     float: right;
+    border-top: 4px solid;
+    border-bottom: 4px solid;
+    border-right: 4px solid; 
+    float: left;
      
 }
 
 #columns {
     float: left;
-    padding-top: 4em;
+    border-top: 4px solid;
+    padding-top: 1em;
     padding-left: 1em;
     padding-bottom: 1em;
-    width: 13em; 
-    background: orange;
+    border-bottom: 4px solid;
+    width: 15em; 
+    background: #2F4F4F;
 }
 
 #main {
-    margin-left: 13em;
+    margin-left: 15em;
     padding-top: 2ex;
     padding-left: 2em;
     padding-bottom: 2em;
-    background: white;
+    background: #FFEBCD;
 }
 
 #side {
@@ -158,12 +158,14 @@
     padding-top: 2em;
     padding-left: 1em;
     padding-bottom: 2em;
-    width: 101.75em;
-    background: purple;
+    border-bottom: 4px solid;
+    border-right: 4px solid;
+    width: 101.25em;
+    background: #6B4423;
 }
 
 #side a {
-    color: #bfb;
+    color: #FF55A3;
     font-size: small;
 }
 
@@ -187,24 +189,27 @@
 /* Styles for the cart in the sidebar */
 
 #cart, #cart table {
-    font-size: smaller;
+    font-size: medium;
     color:     white;
 }
 
 #cart table {
-    border-top: 1px dotted #595;
-    border-bottom: 1px dotted #595;
+    
+    border-top: 1px solid #595;
+    border-left: 1px solid #595;
+    border-right: 1px solid #595;
+    border-bottom: 1px solid #595;
     margin-bottom: 10px;
 }
 
 /* Styles for order form */
 .depot_form fieldset {
-    background: #efe;
+    background: #E1A95F;
 }
 
 .depot_form legend {
-    color: #dfd;
-    background: #141;
+    color: #7D1242;
+    background: #FAD6A5;
     font-family: sans-serif;
     padding: 0.2em 1em;
 }
