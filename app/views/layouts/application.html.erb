@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title>Online Jewellery Shop</title>
+   <%= stylesheet_link_tag "application" %>
+   <%= javascript_include_tag "application" %>
+   <%= csrf_meta_tag %>
+</head>
+<body class="<%= controller.controller_name %>">
+   <div id="banner">
+      <%= image_tag("logo.jpg") %>
+     <I><%= @page_title || "JEWELS PARADISE" %></I>
+   </div>
+
+   <div id="columns">
+<%= image_tag("logo.jpg") %>
+<br />
+<br />
+<br />
+           <div id="cart">
+ <% if @cart %>
+     <%= hidden_div_if(@cart.line_items.empty?, id: 'cart') do %>
+       <%= render @cart %>
+     <% end %>
+   <% end %>       
+           </div>
+<br />
+<br />
+<br />
+<%= image_tag("logo.jpg") %>
+   </div>
+   <div id="side">
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<%= link_to 'Home', store_path %>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<%= link_to 'Questions', questions_path %>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<%= link_to 'News', news_index_path %>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<%= link_to 'Contact', contacts_path %>
+   <div id="main">
+       <%= yield %>
+     </div>  
+</div>
+<%= image_tag("logo.jpg") %> <b> A SID PRODUCTION </b> 
+</body>
+</html>
+

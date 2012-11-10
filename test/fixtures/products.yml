@@ -1,0 +1,20 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  title: MyString
+  description: MyText
+  image_url: MyString
+  price: 9.99
+
+two:
+  title: MyString
+  description: MyText
+  image_url: MyString
+  price: 9.99
+
+ruby:
+  title: STONE BRACELET
+  description: Are you worried that no one looks at you, wish you were going around with people. Then dont worry remember the solution to your problems is here. This is the latest trend. Once you wear it, i bet you the girls in your locality will ask for you always. Dont believe then try and see for yourself.
+  price: 149.50
+  image_url: stonebracelet.jpg
+
